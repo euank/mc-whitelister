@@ -1,0 +1,9 @@
+[package]
+name = "whitelister"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rcon = {version = "0.6", features = ["rt-tokio"]}
+poise = "*"
+tokio = { version = "1", features = ["full"] }
